@@ -1,4 +1,4 @@
-/* for
+////// for
 let number = 7;
 for (let i = 1; i < 11; i++) {
   let result = number * i;
@@ -11,7 +11,6 @@ for (; i < 11; i++) {
   let result1 = number1 * i;
   console.log(`${number1} X ${i}= ${result1}`);
 }
-*/
 
 //////while
 let number2 = 7;
