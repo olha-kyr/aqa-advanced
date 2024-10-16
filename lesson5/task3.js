@@ -1,4 +1,4 @@
-////// for
+// for
 let number = 7;
 for (let i = 1; i < 11; i++) {
   let result = number * i;
@@ -12,7 +12,7 @@ for (; i < 11; i++) {
   console.log(`${number1} X ${i}= ${result1}`);
 }
 
-//////while
+// while
 let number2 = 7;
 let count = 1;
 while (count < 11) {
