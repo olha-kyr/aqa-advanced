@@ -1,17 +1,17 @@
-function isPersonAdult(age) {
+function isPersonAdultIfCondition(age) {
   if (age >= 18) {
     return true;
   } else return false;
 }
 
-console.log(isPersonAdult(25));
-console.log(isPersonAdult(15));
+console.log(isPersonAdultIfCondition(25));
+console.log(isPersonAdultIfCondition(15));
 
 //with ternar operator
 
-function isPersonAdult1(age1) {
-  return age1 >= 18 ? true : false;
+function isPersonAdultTernaryOperator(age) {
+  return age >= 18 ? true : false;
 }
 
-console.log(isPersonAdult1(15));
-console.log(isPersonAdult1(25));
+console.log(isPersonAdultTernaryOperator(15));
+console.log(isPersonAdultTernaryOperator(25));
