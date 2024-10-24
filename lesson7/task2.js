@@ -1,3 +1,5 @@
+//task2
+
 function simple(num) {
   console.log(num);
   if (num >= 0) return simple(num - 1);

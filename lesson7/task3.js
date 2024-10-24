@@ -1,3 +1,5 @@
+// task3
+
 function divide(numerator, denominator) {
   function isNotNumber(num) {
     return typeof num !== "number";
