@@ -1,3 +1,5 @@
+//task1
+
 function handleNum(num, evenCallback, oddCallback) {
   num % 2 === 0 ? evenCallback() : oddCallback();
 }
