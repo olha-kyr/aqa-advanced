@@ -5,5 +5,5 @@ console.log(copiedNumbersList);
 console.log(
   copiedNumbersList.sort(function (a, b) {
     return a - b;
-  })
+  }),
 );
