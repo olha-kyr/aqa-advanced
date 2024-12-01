@@ -7,6 +7,6 @@ test("Get all book list", async () => {
       "Content-Type": "application/json",
     },
   });
-  console.log(response.data);
+
   expect(response.status).toEqual(200); //asserting if the response code is 200
 });

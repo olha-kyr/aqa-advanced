@@ -5,4 +5,4 @@ function rectangleArea(length, width) {
   return length * width;
 }
 
-export default rectangleArea;
+module.exports = rectangleArea;
